@@ -45,21 +45,17 @@ const HeroCardBtn = () => {
     </span>
   )
 
-  const myStyle = 'w-20 justify-center'
-  const myStyle2 = 'w-28'
+  const myStyle = 'w-20 justify-center h-8'
+  // const myStyle2 = 'w-28'
   return (
     <>
       <div className="btnGroup z-10 absolute bottom-8 flex flex-row  justify-between items-center px-6  w-full">
         <div className="flex flex-row gap-2">
           <OutLineBtnHero icon={AUTHOR_ICON} title="Autor name" />
           <OutLineBtnHero myStyle={myStyle} icon={USER_VIEW} title={'200'} />
-          <OutLineBtnHero
-            myStyle={myStyle2}
-            icon={USER_LIKE}
-            title={'Read later'}
-          />
+          <OutLineBtnHero myStyle={myStyle} icon={USER_LIKE} title={'2000'} />
         </div>
-        <OutLineBtnHero icon={BOOK_MARK} title="Autor name" />
+        <OutLineBtnHero myStyle={myStyle} icon={BOOK_MARK} title="Save" />
 
         {/* {BOOK_MARK} */}
       </div>

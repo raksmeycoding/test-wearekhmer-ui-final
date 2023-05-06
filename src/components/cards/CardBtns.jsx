@@ -50,7 +50,7 @@ const CardBtns = () => {
         <div className="flex flex-row gap-2">
           <OutLineBtn icon={AUTHOR_ICON} title="autor name" />
           <OutLineBtn icon={USER_VIEW} title={'200'} />
-          <OutLineBtn icon={USER_LIKE} title={'read later'} />
+          <OutLineBtn icon={USER_LIKE} title={'2000'} />
         </div>
         {BOOK_MARK}
       </div>
