@@ -31,3 +31,36 @@
   font-family: khmer-font, sans-serif;
   font-size: 20px;
 }
+
+.customRbg {
+  background-color: rgba(139, 139, 140, 0.65);
+}
+
+.card {
+  position: relative;
+  /* add any other necessary styles */
+  transition: all 0.5s ease;
+}
+
+.card:hover::after {
+  border-radius: 1rem;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 0.5rem);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.5s ease;
+  transition-delay: 0.5s;
+}
+
+.opacityColor {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover::after {
+  opacity: 1;
+}

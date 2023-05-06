@@ -6,7 +6,7 @@ import Button from '../../components/ui/Button'
 
 function Navbar() {
   return (
-    <div className="z-10 flex flex-row gap-4 w-full  justify-between items-center fixed bg-white left-0 global-padding-x">
+    <div className="z-20 flex flex-row gap-4 w-full  justify-between items-center fixed bg-white left-0 global-padding-x">
       <span>
         <img src={logo} alt="" />
       </span>
