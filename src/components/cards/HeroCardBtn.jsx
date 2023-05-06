@@ -49,13 +49,47 @@ const HeroCardBtn = () => {
   // const myStyle2 = 'w-28'
   return (
     <>
-      <div className="btnGroup z-10 absolute bottom-8 flex flex-row  justify-between items-center px-6  w-full">
-        <div className="flex flex-row gap-2">
-          <OutLineBtnHero icon={AUTHOR_ICON} title="Autor name" />
-          <OutLineBtnHero myStyle={myStyle} icon={USER_VIEW} title={'200'} />
-          <OutLineBtnHero myStyle={myStyle} icon={USER_LIKE} title={'2000'} />
-        </div>
-        <OutLineBtnHero myStyle={myStyle} icon={BOOK_MARK} title="Save" />
+      <div className="slightlyBalck bottom-0 btnGroup z-10 absolute h-[200px] flex flex-row  justify-between items-center px-6  w-full">
+        <dir>
+          <div>
+            <div className="title text-white w-6/12 line-clamp-1 mb-2 text-xl">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dicta
+              explicabo omnis architecto sed eaque in vero delectus, qui dolores
+              quasi cupiditate libero quae. Sapiente expedita necessitatibus,
+              ratione tempore aliquid animi deserunt alias molestias beatae,
+              fugit reprehenderit nihil quaerat dolorum?
+            </div>
+            <div className="descriptoin line-clamp-1 mb-12 w-6/12 text-[#ababac]">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+              eos, quos accusamus ea tempora veritatis obcaecati sequi nam
+              itaque ratione tenetur, ipsum rem. Ad magni eaque tempore minima
+              error quasi. Velit dolores nostrum, voluptates ab corrupti
+              voluptate eum id fugiat quae nobis numquam dicta officiis eius
+              eveniet libero ex quos, harum iure sequi accusantium ut voluptatum
+              modi nemo? Sequi, quis autem, iste rerum aliquam exercitationem at
+              voluptate maxime explicabo nobis quisquam dolore illo quas facilis
+              adipisci soluta dolores, veniam ducimus error commodi! Sint est
+              nostrum eligendi enim dolore ad saepe qui reprehenderit facere,
+              repellat ipsa quas fuga quod explicabo aliquam!
+            </div>
+          </div>
+          <div className="flex flex-row justify-between w-full">
+            <div className="flex flex-row gap-2">
+              <OutLineBtnHero icon={AUTHOR_ICON} title="Autor name" />
+              <OutLineBtnHero
+                myStyle={myStyle}
+                icon={USER_VIEW}
+                title={'200'}
+              />
+              <OutLineBtnHero
+                myStyle={myStyle}
+                icon={USER_LIKE}
+                title={'2000'}
+              />
+            </div>
+            <OutLineBtnHero myStyle={myStyle} icon={BOOK_MARK} title="Save" />
+          </div>
+        </dir>
 
         {/* {BOOK_MARK} */}
       </div>
