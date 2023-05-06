@@ -6,7 +6,7 @@ const HorizentialCardScroll = () => {
   return (
     <div className="mt-4">
       <SeeMore />
-      <div className="flex flex-row gap-8 overflow-x-scroll pb-4 z-0">
+      <div className="flex flex-row gap-8 overflow-x-scroll pb-4 z-0 overflow-y-hidden">
         <Card />
         <Card />
         <Card />
