@@ -3,7 +3,10 @@ import React from 'react'
 export const DropDrown = () => {
   return (
     <div>
-      <select name="categories" id="categories">
+      <select name="contents" id="contents">
+        <option selected disabled>
+          Contents
+        </option>
         <option value="history">History</option>
         <option value="architectureAndHousing">Architecture and housing</option>
         <option value="religion">Religion</option>

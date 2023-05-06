@@ -1,8 +1,33 @@
-.golbal-padding-x {
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@200;300;400;500&display=swap');
+
+.global-padding-x {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 .gb-red {
   background-color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #545050;
+  border-radius: 10px;
+}
+
+/* adjust the animation timing and distance as needed */
+
+@font-face {
+  font-family: 'khmer-font';
+  src: local('khmer-font'),
+    url(../fonts/KantumruyPro-Regular.ttf) format('truetype');
+}
+
+.khmer-font {
+  font-family: khmer-font, sans-serif;
+  font-size: 20px;
 }

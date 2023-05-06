@@ -4,9 +4,9 @@ import SeeMore from './SeeMore'
 
 const HorizentialCardScroll = () => {
   return (
-    <>
+    <div className="mt-4">
       <SeeMore />
-      <div className="flex flex-row gap-4 overflow-x-scroll">
+      <div className="flex flex-row gap-8 overflow-x-scroll pb-4 z-0">
         <Card />
         <Card />
         <Card />
@@ -18,7 +18,7 @@ const HorizentialCardScroll = () => {
         <Card />
         <Card />
       </div>
-    </>
+    </div>
   )
 }
 

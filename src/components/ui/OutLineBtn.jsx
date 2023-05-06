@@ -1,10 +1,10 @@
 import React from 'react'
 
-const OutLineBtn = ({ title }) => {
+const OutLineBtn = ({ icon, title }) => {
   return (
-    <span className="w-fit rounded-2xl mb-2 mt-2 font-thin text-sm border border-rose-600 flex flex-row justify-between">
-      <span className="pr-2 pl-1 py-1  ">Icon</span>
-      <span className="pl-2 pr-1 py-1 ">{title}</span>
+    <span className="text-orange-400 w-fit rounded-full mb-2 mt-2 font-thin text-sm border border-[#FEB55E] flex flex-row items-center">
+      {icon}
+      <span className="pl-2 pr-2 py-1 ">{title}</span>
     </span>
   )
 }
